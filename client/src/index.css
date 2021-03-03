@@ -1,0 +1,698 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+#dark{
+  background-color: black;
+} 
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.inline li a:hover{
+  color: #645beb;
+  text-decoration: none;
+}
+
+#logoPart{
+  width: 10%;
+}
+
+#mainPart{
+  width: 50%;
+  text-align: center;
+  margin-top: 12px;
+}
+
+#logPart{
+  width: 20%;
+  text-align: right;
+}
+
+#darkPart{
+  width: 10%;
+  float: right;
+}
+
+
+
+#mode{
+  float: right;
+  margin: 30px 30px 0 0;
+}
+
+.react-toggle{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  touch-action: pan-x;
+}
+
+.react-toggle-track{
+  width: 50px;
+  height: 24px;
+  padding: 0;
+  border-radius: 30px;
+  background-color: #0f1114;
+  transition: all .2s ease;
+}
+
+.react-toggle--checked .react-toggle-track-check{
+  opacity: 1;
+  transition: opacity .25s ease;
+}
+
+.react-toggle-track-check{
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 5px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+
+.react-toggle--checked .react-toggle-track-x {
+  opacity: 0;
+}
+
+.react-toggle-track-x{
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  right: 5px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+}
+
+.react-toggle--checked .react-toggle-thumb {
+  transform: translateX(26px);
+  border-color: #19ab27;
+}
+
+.react-toggle-thumb{
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  transition: all .5s cubic-bezier(.23,1,.32,1) 0ms;
+  transform: translateX(0);
+}
+
+.react-toggle-screenreader-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.logo{
+  float: left;
+}
+
+#header a{
+  text-decoration: none;
+}
+
+.inline{
+  display: inline-block;
+  
+} 
+
+.inline li{
+  display: inline-block;
+  margin: 0px 30px 0 0;
+  font-size: 25px;
+  text-align: center;
+}
+
+.inline a{
+  color: black;
+}
+
+.inlineDark a{
+  color: white;
+}
+
+
+#header{
+  height: 85px;
+  background-color: white;
+    overflow: hidden;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#logoImg{
+  width: 100px;
+  height: 84px;
+}
+
+#searchSpace{
+  text-align: center;
+}
+
+#searchForm{
+}
+
+#searchImg{
+  width: 100%;
+  height: 90vh;
+}
+
+/* About Start */ 
+#about{
+  margin-top: 50px;
+}
+
+.aboutDiv{
+  display: flex; 
+}
+
+.myFlex{
+  position: relative;
+  width: 50%;
+}
+
+.aboutText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutImg{
+  width: 50%;
+  height: 70vh;
+  margin: auto;
+}
+
+#first{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#second{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#third{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.h1Size{
+  font-size: 250%;
+  text-align: center;
+}
+
+.pSize{
+  font-size: 200%;
+  margin: 0;
+  text-align: center;
+
+}
+
+.pModalSize{
+  font-size: 200%;
+  margin: 0;
+  text-align: center;
+}
+
+#resModal{
+  height: 90vh; 
+  width: 70%;
+}
+
+/* About End */
+#workModal{
+  height: 90vh; 
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.modalText{
+float: left;
+width: 50%;
+height: 30vh;
+}
+
+.modalImg{
+float: right;
+    width: 50%;
+    height: 30vh;}
+
+.image{
+  width: inherit;
+}
+    .inner{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);}
+
+    .outer{
+      position: relative;
+    }
+
+    #contact{
+      margin:50px auto 0px auto;
+      width: 70%;
+      text-align: center;
+    }
+
+    
+    .MuiFormControl-root {
+      width: 80%
+    }
+
+    #slider{
+      background-color: white;
+    }
+
+    #reviews{
+      margin:50px auto 0px auto;
+      width: 70%;
+      text-align: center;
+    }
+
+    #inner{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(50%, 0%);}
+
+
+      #parkProvider{
+        background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    border: 0;
+    border-radius: 3;
+    box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+    color: white;
+    height: 48;
+    padding: 0 30px;
+      }
+
+      #footer{
+        margin-top: 50px;
+        text-align: center;
+        color: white;
+        background-color: #3f51b5;
+      } 
+      
+      .btn{
+          border: 1px solid transparent;
+          border-radius: 10%;
+          color: white;
+          width: 70px;
+          height: 35px;
+        background-color: #3f51b5;
+        
+      }
+
+      .btn:hover{
+        border: 1px solid #3f51b5;
+        color:#3f51b5;
+        background-color: white;
+      }
+
+      .btnDark{
+        border: 1px solid transparent;
+        border-radius: 10%;
+        color: #3f51b5;
+        width: 70px;
+        height: 35px;
+      background-color: white;
+      
+    }
+
+    .btnDark:hover{
+      border: 1px solid #3f51b5;
+      color: white;
+      background-color: #3f51b5;
+    }
+
+#providerBtn{
+  height: '200px';
+  transform: 'translate(25%, 0px)'; 
+  width: '70%';
+  margin-top: '50px';
+}
+
+/* For Help */ 
+.query{
+  text-align: center;
+  margin:50px auto 0px auto;
+  width: 80%;
+}
+
+.footerDiv{
+  width: 33%;
+  display: inline-block;
+  float: left;
+}
+
+#reviews{
+    align-items: center;
+    height: 70;
+    color: black;
+    background-color: white;
+}
+
+.msg{
+  color: #3f51b5;
+}
+
+#searchForm {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.autocomplete{
+  margin-bottom: 15px;
+}
+
+.textfield{
+  margin-bottom: 15px !important;
+  width: 49.5% !important; 
+}
+
+.leftBar{
+  float: left;
+  width: 25%;
+}
+
+.rightBar{
+  width: 75%;
+  float: right;
+}
+
+/* Extra large devices (large laptops and desktops, 1201px and up) */
+@media only screen and (min-width: 1201px) {
+/* For Help */ 
+
+.navbar-toggler{
+  display: none;
+} 
+
+}
+
+/* Large devices (laptops/desktops, from 993px to 1200px) */
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+
+  .navbar-toggler{
+    display: none;
+  } 
+  
+  /* For Help */ 
+.query{
+  margin: 50px auto 0px auto;
+}
+
+#searchForm {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.autocomplete{
+  margin-bottom: 15px;
+}
+
+.textfield{
+  margin-bottom: 15px !important;
+  width: 49.5% !important;
+}
+}
+
+/* Medium devices (landscape tablets, from 768px to 992px) */
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+  .navbar-toggler{
+    display: none;
+  } 
+    
+  
+  #searchForm {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .autocomplete{
+    margin-bottom: 15px;
+  }
+  
+  .textfield{
+    margin-bottom: 15px !important;
+    width: 100% !important;
+  }
+
+  /* For Help */ 
+.query{
+  margin: 50px auto 0px auto;
+  width: 90%;
+}
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, from 768px to 576px) */
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+
+#logoPart {
+   width: 85%;
+   float: left; 
+}
+
+.inline{
+  display: block;
+}
+
+#mainPart {
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.inline ul{
+  margin: 0;
+  padding: 10px;
+}
+
+.inline li {
+    display: block;
+    margin: 0px;
+    text-align: left;
+}
+
+#logPart {
+  width: 100%;
+  text-align: left;
+  margin: -20px 0 0 0;
+}
+
+#darkPart {
+  float: left;
+  margin: -25px 0 0 15px;
+}
+
+  #togglerBtn{
+    height: 87px;
+  }
+  #workModal{
+    width: 90%;
+  }
+  
+  #about{
+    margin-top: 0px;
+  }
+
+
+  #searchForm {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .autocomplete{
+    margin-bottom: 15px;
+  }
+  
+  .textfield{
+    margin-bottom: 15px !important;
+    width: 100% !important;
+  }
+
+  /* For Help */ 
+.query{
+  margin: 50px auto 0px auto;
+  width: 95%;
+}
+
+.footerDiv{
+  width: 100%;
+  display: block;
+  float: left;
+}
+}
+
+/* Extra small devices (phones, from 575px to ...) */
+@media only screen and (max-width: 575px) {
+
+  #logoPart {
+    width: 75%;
+    float: left; 
+ }
+ 
+ .inline{
+   display: block;
+ }
+ 
+ #mainPart {
+   width: 100%;
+   text-align: left;
+   margin-top: 20px;
+ }
+ 
+ .inline ul{
+   margin: 0;
+   padding: 10px;
+ }
+ 
+ .inline li {
+     display: block;
+     margin: 0px;
+     text-align: left;
+ }
+ 
+ #logPart {
+   width: 100%;
+   text-align: left;
+   margin: -20px 0 0 0;
+ }
+ 
+ #darkPart {
+   
+   width: 100%;
+ }
+ 
+ #mode{
+   float: none;
+   margin: 0 0 0 10px;
+ }
+
+  #workModal{
+    width: 90%;
+  }
+  
+  .hideModal{
+    display: none !important;
+  }
+
+  .modalText{
+  float: left;
+  width: 100%;
+  height: 30vh;
+  }
+
+  
+    #searchForm {
+      text-align: center;
+      width: 90%;
+      margin: auto;
+    }
+  
+    .autocomplete{
+      margin-bottom: 15px;
+    }
+    
+    .textfield{
+      margin-bottom: 15px !important;
+      width: 100% !important;
+    }
+  
+
+  /* About Start */ 
+#about{
+  margin-top: 10px;
+}
+
+.aboutDiv{
+  display: block; 
+}
+
+#first, #third, #midText{
+  display: none;
+}
+
+.myFlex{
+  position: relative;
+  width: 100%;
+}
+
+.aboutText{
+  position: inherit;
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, 0%);
+}
+
+.aboutImg{
+  width: 85%;
+  height: 25vh;
+  margin: auto;
+}
+
+  /* For Help */ 
+.query{
+  margin: 40px auto 0px auto;
+  width: 100%;
+}
+
+.footerDiv{
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+
+.pModalSize{
+  font-size: 150%;
+}
+}
