@@ -45,7 +45,7 @@ const App = (props) => {
   }
   return (
     <div id={isLight==='true' ? null : 'dark'} className="App">            
-    <Elements stripe={loadStripe('pk_test_51HdY9fJreidjy7UKNXs4CW5lxPS0ez17vfI7YuYspxyDXO2Nrmn0pqcjZKRxC0zJr5H5bbULPtHbV4KPcVsQq35P007AERazNr')}>
+    <Elements stripe={loadStripe('...')}>
     <ThemeContext.Provider value={isLight}>
       <BrowserRouter>
           <Switch>  
